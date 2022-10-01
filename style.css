@@ -28,10 +28,9 @@ body {
 }
 
 #ButtonBox {
-    /* 
-border: 1px solid black; */
-    text-align: center;
-    margin-top: 20px;
+   display: flex;
+   width: 100%;
+    justify-content: center;
 
 
 
@@ -52,7 +51,7 @@ border: 1px solid black; */
 .boxess {
     border: 1px solid white;
     width: 200px;
-    font-size: 30px;
+    font-size: 50px;
     background-color: black;
     color: white;
     display: flex;
