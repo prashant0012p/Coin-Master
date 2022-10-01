@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="one"></div>    
+<div id="two"></div>
+<div id="three"></div>
+<button id="btn">Click Me</button>
+    
+<script>
+
+var random;
+var random2;
+var random3;
+
+let box1 = document.getElementById("one"); 
+let box2 = document.getElementById("two"); 
+let box3 = document.getElementById("three"); 
+
+let Button = document.getElementById("btn");
+
+Button.setAttribute("onclick","cliFunc()");
+
+cliFunc = () =>{
+    
+random = Math.floor(Math.random() * 5);
+random2 = Math.floor(Math.random() * 5);
+random3 = Math.floor(Math.random() * 5);
+
+console.log(random);
+console.log(random2);
+console.log(random3);
+
+
+
+randomEmoji = [ "&#128512", "&#x1F601;","&#x1F602;"," &#x1F608;","&#128526;" ];
+random2Emoji = [ "&#128512", "&#x1F601;","&#x1F602;"," &#x1F608;","&#128526;" ];
+random3Emoji = [ "&#128512", "&#x1F601;","&#x1F602;"," &#x1F608;","&#128526;" ];
+
+
+
+    
+box1.innerHTML = randomEmoji[random];
+box2.innerHTML = random2Emoji[random2];
+box3.innerHTML = random3Emoji[random3];
+
+
+if(randomEmoji[random] == random2Emoji[random2] && random2Emoji[random2] == random3Emoji[random3]){
+
+    console.log("win");
+
+}
+      
+
+
+}
+
+
+</script>
+
+
+</body>
+</html>
