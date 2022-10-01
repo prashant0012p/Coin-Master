@@ -1,0 +1,52 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container {
+
+    background-color: burlywood;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 200px;
+
+
+
+}
+
+#ButtonBox {
+    /* 
+border: 1px solid black; */
+    text-align: center;
+    margin-top: 20px;
+
+
+
+}
+
+#ButtonBox>#btn {
+
+    background-color: cadetblue;
+    border: none;
+    width: 200px;
+    height: 30px;
+
+
+}
+
+.boxess {
+
+    border: 1px solid black;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
