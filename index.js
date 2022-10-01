@@ -27,8 +27,6 @@ console.log(random);
 
 
 
-
-
 function clickFunc() {
 
 
@@ -41,7 +39,15 @@ function clickFunc() {
 
     }, 3000);
 
-    reload();
+    if (random[0] == random[1] && random[2] == random[1]) {
+        box1.innerHTML = random[0];
+        box2.innerHTML = random[1];
+        box3.innerHTML = random[2];
+    } else {
+        reload();
+    }
+
+
 
 
 }

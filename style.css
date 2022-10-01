@@ -6,6 +6,13 @@
 
 }
 
+body {
+    background: url(https://www.inversegamer.com/wp-content/uploads/2020/08/coin-master-free-spins.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
 #container {
 
     background-color: burlywood;
@@ -34,19 +41,21 @@ border: 1px solid black; */
 
     background-color: cadetblue;
     border: none;
-    width: 200px;
-    height: 30px;
-
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
 
 }
 
 .boxess {
-
-    border: 1px solid black;
+    border: 1px solid white;
     width: 200px;
-
+    font-size: 30px;
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
